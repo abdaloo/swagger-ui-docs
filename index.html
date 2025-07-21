@@ -1,4 +1,4 @@
-<!-- HTML for static distribution bundle build -->
+<!-- HTML for static distribution bundle build
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,4 +16,28 @@
     <script src="./swagger-ui-standalone-preset.js" charset="UTF-8"> </script>
     <script src="./swagger-initializer.js" charset="UTF-8"> </script>
   </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swagger UI</title>
+
+  <!-- ✅ Swagger UI CSS from CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css" integrity="sha512-sgAf4yAZwq0eN0aX7M8z0K3p3kMeR8OcD4KDViTPAGH62YcNlEluV9Y7pV5/xdfklmVuKSG8PP2vYO+vV5o1yA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Optional: your own custom CSS (optional) -->
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="swagger-ui"></div>
+
+  <!-- ✅ Swagger UI JS from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui-bundle.min.js" integrity="sha512-vESmjZ0E0NwhPN0XJjUgU+eOHkSS82LVKDEjvGzPvw2t6peEw3R8K+qAgLaqEKId0KOxhs9z0NVZMmj84lsGrQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui-standalone-preset.min.js" integrity="sha512-MkjhADyzZxJkNfyc7Kz3wOGyQ8PSvBtNpbNodUw+9IDRU+ZzHq3ZIdkgZ/4oLNeWyxBrSwK5EiPCu6XIo9e6/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- ✅ Your initializer -->
+  <script src="./swagger-initializer.js" charset="UTF-8"></script>
+</body>
 </html>
